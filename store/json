@@ -14,5 +14,13 @@
     },
     "price": 3000,
     "date": "2022-05-30"
+  },
+  {
+    "name": "kome",
+    "category": {
+      "Expense": "Food"
+    },
+    "price": 2000,
+    "date": "2026-06-05"
   }
 ]

@@ -12,7 +12,7 @@ fn main() {
 
     if service_type == 0 {
       services::register::run(FILE_PATH)
-    } else {
-      println!("集計サービス");
+    } else if service_type == 1 {
+      services::summarize::run(FILE_PATH);
     }
 }
